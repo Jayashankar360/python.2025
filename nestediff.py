@@ -6,3 +6,4 @@ if(i<12):
     print("i is smaller than 12")
 else:
     print("i is greater than 15")
+    

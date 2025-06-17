@@ -8,3 +8,4 @@ elif(i==20):
 else:
     print("i is not equal to 10,15,20")
     
+    
