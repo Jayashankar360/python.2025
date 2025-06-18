@@ -1,5 +1,5 @@
 
-i=101
+i=int(input("enter your mark:"))
 if(i>90 and i<=100):
     print("Grade A")
 elif(i>80 and i<=90):
