@@ -8,6 +8,3 @@ for i in item:
     if i not in storage_items:
         missing_items.append(i)
 print("You need to buy the following items:", missing_items)
-
-
-
