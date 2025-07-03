@@ -117,16 +117,28 @@
 #             print(" ", end=" ") 
 #     print()
 # hollow inverted full pyramid:
-n = 5   
-for i in range(0, n):
-    for j in range(0, i):   
-        print(" ", end=" ")
-    for k in range(0, 2 * (n - i) - 1):
-        if k == 0 or k == 2 * (n - i) - 2 or i == 0:
+# n = 5   
+# for i in range(0, n):
+#     for j in range(0, i):   
+#         print(" ", end=" ")
+#     for k in range(0, 2 * (n - i) - 1):
+#         if k == 0 or k == 2 * (n - i) - 2 or i == 0:
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ") 
+#     print()
+
+
+#letter j pyramid:
+n= 5
+for i in range(0, n):   
+    for j in range(0, n):
+        if i == 0 or j == n // 2 or (i == n - 1 and j < n // 2):
             print("*", end=" ")
         else:
-            print(" ", end=" ") 
+            print(" ", end=" ")
     print()
+
 
     
   
