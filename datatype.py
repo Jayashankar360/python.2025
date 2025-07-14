@@ -180,24 +180,50 @@
 
 ##repeatation
 
-list1=[12,14,16,18,20]
-k=list1*2
-print(k)
+# list1=[12,14,16,18,20]
+# k=list1*2
+# print(k)
 
-###concatenation
+# ###concatenation
 
-list1=[12,14,16,18,20]
-list2=[9,10,32,54,86]
-k=list1+list2
-print(k)
+# list1=[12,14,16,18,20]
+# list2=[9,10,32,54,86]
+# k=list1+list2
+# print(k)
 
 
-##leength
-list1=[12, 14, 16, 18, 20, 12, 14, 16, 18, 20]
-a=len(list1)
+# ##leength
+# list1=[12, 14, 16, 18, 20, 12, 14, 16, 18, 20]
+# a=len(list1)
+# print(a)
+
+# ######membership
+# list1=[100,200,300,400,500]
+# print(600 in list1)
+# print(200 in list1)
+
+
+# ##max
+# list1=[103,175,134,185,190]
+# print(max(list1))
+# ##min
+# print(min(list1))
+
+# ##intersection
+# list1=[1,2,3,4,5]
+# list2=[3,4,5,6,7,]
+# intersection1=set(list1).intersection(list2)
+# print(intersection1)
+
+
+list1=[1,2,3,5,6,7,8,9,10]
+list2=[2,4,6,8,10]
+a=[]
+for i in range(len(list1)):
+ for j in range(len(list2)):
+    if list1[i]==list2[j]:
+        a.append(list1[i])
 print(a)
+    
 
-######membership
-list1=[100,200,300,400,500]
-print(600 in list1)
-print(200 in list1)
+
