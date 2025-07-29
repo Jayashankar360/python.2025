@@ -26,7 +26,7 @@ while True:
         if(b!=0):
            print(division(a,b))
         else:
-            print("undefined")
+            print("the second number is 0 is not divisible")
     elif choice==5:
         print("exiting ......")
         break
